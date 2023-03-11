@@ -1,0 +1,176 @@
+.flex {
+    background: #ddd;
+    display: flex;
+    flex-direction: column;
+}
+
+.tittle {
+    text-decoration: none;
+    color: #000;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+}
+
+.container {
+    background: #fff;
+    height: 10vh;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerB {
+    height: 10vh;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerCart {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #00000099;
+}
+
+.cart {
+    float: right;
+    height: 100vh;
+    width: 400px;
+    background-color: #eee;
+}
+
+.cartBody {
+    height: 90%;
+    max-height: 67vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+}
+
+.body {
+    flex: 1 1 0%;
+    scrollbar-width: none;
+    overflow-y: auto;
+}
+
+.cartEmpty {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle {
+    background: #ddd;
+    padding: 5px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    font-weight: bold;
+}
+
+.containerTotal {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    font-weight: bold;
+
+}
+
+.btns {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.btnCart {
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.subtotal {
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnDel {
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    background: #fa3333;
+}
+
+.btnDelD {
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    background: #fa3333;
+    color: #00000085;
+}
+
+.btnBuy {
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    background: #4afa33;
+}
+
+.btnDel:hover,
+.btnBuy:hover {
+    transform: scale(1.5);
+    transition: transform 0.7s ease;
+}
+
+.btnCart:hover {
+    transform: scale(1.2);
+    transition: transform 0.7s ease;
+    background: #ccc;
+}
+
+
+@media screen and (max-width: 620px) {
+    .tittle {
+        text-decoration: none;
+        color: #000;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    .containerB {
+        padding: 0;
+    }
+
+    .btnCart {
+        padding: 10px 15px;
+    }
+
+    .tittle {
+        text-decoration: none;
+        color: #000;
+        font-size: 7px;
+    }
+
+    .cart {
+        float: right;
+        height: 100vh;
+        width: 100%;
+        background-color: #eee;
+    }
+}
