@@ -10,7 +10,7 @@ Para clonar el repositorio, utiliza el siguiente comando:
 
 - Luego, abre la terminal con `cd Prueba-tecnica-Front-Ecomsur-2023` y ejecuta `npm install`.
 - Ahora, haz lo mismo pero en la carpeta "front" `cd front` y ejecuta `npm install`
-- Listo, para ver el proyecto corriendo, regresa a la carpeta anterior con `cd..`  y ejecuta `npm run dev`
+- Listo, para ver el proyecto corriendo, regresa a la carpeta anterior con `cd ..`  y ejecuta `npm run dev`
 
 Ve a la siguiente URL: `http://localhost:3000/` y verás lo siguiente:
 ![Running app](https://i.ibb.co/yhQDf4h/image.png)
